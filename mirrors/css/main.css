@@ -1,0 +1,89 @@
+.logo{
+    width: 271px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.navigation{
+    margin-top: 40px;
+}
+.navigation li{
+    list-style: none;
+    float: left;
+    margin-left: 2vw;
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
+}
+.navigation li a:hover{
+    color: #2196F3;
+}
+.first{
+    margin-bottom: 10px;
+}
+.search{
+    padding: 5px;
+    margin-top: 15px;
+    position: absolute;
+    right: 0;
+}
+.line{
+    width: 100%;
+    border-color: gray;
+    border-style: solid;
+    border-top: 0px;
+    margin-top: 10px;
+}
+.LI a{
+    color: #2196F3;
+}
+.LI{
+    padding: 7px 0 7px 0;
+}
+.LI:hover{
+    background-color: #90CAF9;
+}
+.placard h3{
+    margin-left: 20px;
+}
+.notice li,.link li{
+    margin-top: 10px;
+}
+.notice li a,.link li a{
+    text-decoration: none;
+    color: black;
+}
+.swap li{
+    margin-top: 10px;
+}
+.swap a{
+    text-decoration: none;
+    color: #448AFF;
+}
+.Footer{
+    height: 250px;
+    background-color: #607D8B;
+    padding: 50px;
+    line-height: 2;
+}
+.btn{
+    position: absolute;
+    right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.navigations li{
+    padding: 10px;
+}
+.navigations{
+    height: 0px;
+    list-style: none;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.navigations li a{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,84 @@
+body,html{
+    background-color: #e9e9e9;
+}
+.status-panel{
+    height: 25px;
+    background-color: #ffffff;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.status-panel3,.status-panel4{
+    margin-bottom: 15px;
+}
+.status-panel2{
+    height: 200px;
+}
+.status-panel2 .title{
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #000000;
+}
+.status-panel2 .progress{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2196F3;
+    overflow: hidden;
+}
+.status-panel2 .content{
+    padding: 40px;
+}
+.status-panel2 .progress h2{
+    width: 42px;
+    margin-top: 35px;
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+    z-index: 1;
+}
+.status-panel2 .progress .square{
+    display: inline-block;
+    margin-top: 0px;
+    width: 150px;
+    height: 150px;
+    background-color: #448AFF;
+    border-radius: 40%;
+    animation: rotate 10s linear infinite;
+    margin-left: -20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+@keyframes rotate{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+.status-panel3{
+    height: 400px;
+}
+.status-panel3 .titles{
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #000000;
+}
+.status-panel3 .disk{
+    display:block;
+    width: 100%;
+    height: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2196F3;
+    margin-top: 75px;
+    overflow: hidden;
+}
+.status-panel3 .progress-rate{
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: #2196F3;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
